@@ -1,6 +1,6 @@
 import React from 'react'
-// import MapGL, { Marker } from 'react-map-gl'
-import axios from 'axios'
+
+
 import ReactMapGL, { NavigationControl, Marker, StaticMap } from 'react-map-gl'
 
 
@@ -59,7 +59,7 @@ class Map extends React.Component {
           // }}
         >
 
-          {this.state.results.map(event => (
+          {/* {this.state.results.map(event => (
             <Marker
               key={event.id}
               latitude={event.venue.latitude}
@@ -67,7 +67,7 @@ class Map extends React.Component {
             >
               <div> 🎸 </div>
             </Marker>
-          ))}
+          ))} */}
           <NavigationControl />
         </ReactMapGL>
       </div>
