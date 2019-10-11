@@ -23,6 +23,7 @@ class Map2 extends Component {
       active: false
 
     }
+    
     this.showInfo = this.showInfo.bind(this)
     this.handleClick = this.handleClick.bind(this)
   }
