@@ -1,4 +1,5 @@
 # 48hr Hackathon
+
 ## Gig-on-a-map
 In 48 hours, I built a ReactJS front-end web-app that utilises a third-party API, allowing users to find music related gigs in their local vicinity, visually on a map opposed to a web page item list view.
 
