@@ -18,7 +18,7 @@ To use the app, simply click around to see events on the map. To see more inform
 
 ## Installation
 
-We use `npm` to manage our packages, so be sure to run `$ npm run install` before starting.
+We use `npm` to manage our packages, so be sure to run `$ npm install` before starting.
 
 As all API's are external, there is no express server to handle requests.
 
