@@ -72,6 +72,7 @@ class Map2 extends Component {
         </div>
 
         <ReactMapGL {...this.state.viewport} eventData={this.state}
+          // style={'mapbox://styles/nuclearsheep/ck4r040lp291c1co6h3g4y7l8'}
           onClick={this.handleClick}
           height={'100vh'}
           width={'100vw'}
